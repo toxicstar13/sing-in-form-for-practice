@@ -21,11 +21,15 @@
             <input
               type="text"
               id="account"
-              class="w-full border-b-2 border-sky-300 py-1 outline-none"
+              class="peer w-full border-b-2 border-sky-300 py-1 outline-none"
             />
             <p
               id="addr-hint-text"
-              class="peer-focus:text-X5 absolute top-2 left-0 w-10 cursor-text select-none duration-200 peer-focus:-translate-y-5 peer-focus:text-sky-500"
+              class="absolute top-2 left-0 w-24
+              cursor-text select-none duration-200
+              peer-focus:-translate-y-5
+              peer-focus:text-XS
+              peer-focus:text-sky-500"
             >
               帳號
             </p>
@@ -38,7 +42,11 @@
             />
             <p
               id="password-hint-text"
-              class="absolute top-2 left-0 w-10 translate-y-5 cursor-text select-none"
+              class="absolute top-2 left-0 w-24
+              cursor-text select-none duration-200
+              peer-focus:-translate-y-5
+              peer-focus:text-XS
+              peer-focus:text-sky-500"
             >
               密碼
             </p>
@@ -47,7 +55,7 @@
         <a
           href=""
           id="forget-password-link"
-          class="hover:fint-bold inline-black text-sky-400 hover:border-sky-400"
+          class="hover:fint-bold inline-block text-sky-400 hover:border-sky-400"
           >忘記密碼</a
         >
         <button
